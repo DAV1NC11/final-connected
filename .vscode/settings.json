@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/322ef200-ec2e-46b3-8499-b499e5ebf0ca/resourceGroups/dav1nc11/providers/Microsoft.Web/sites/mqtp-connected",
+    "appService.deploySubpath": "mqtp"
+}
