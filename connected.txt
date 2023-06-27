@@ -1,3 +1,5 @@
 -use cordova
 -iOS + Android
 -Admin webapp
+-create meaningful topics
+-modify api (https://mqtp-connected.azurewebsites.net/)
