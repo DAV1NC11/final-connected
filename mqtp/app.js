@@ -1,3 +1,6 @@
+const loginRouter = require('./routes/login');
+const registerRouter = require('./routes/register');
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -37,5 +40,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+app.use('/login', loginRouter);
+app.use('/register', registerRouter);
 
 module.exports = app;
